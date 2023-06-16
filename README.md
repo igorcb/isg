@@ -6,9 +6,9 @@ O objetivo deste teste é avaliar sua capacidade em criar um projeto de API do R
 
 Os modelos que você deverá implementar, bem como suas respectivas colunas, são:
 
-Usuário (id, nome, email, senha)
-Post (id, titulo, texto, usuário[associação])
-Comentário (id, nome, comentário, post[associação])
+### Usuário (id, nome, email, senha)
+### Post (id, titulo, texto, usuário[associação])
+### Comentário (id, nome, comentário, post[associação])
 
 Deve conter uma rota de autenticação, e a rota de criação/edição/exclusão de post e usuário devem estar bloqueadas.
 Além disso, você deve preferencialmente escrever testes para as rotas criadas para garantir que a API esteja funcionando corretamente. É recomendado usar alguma biblioteca para padronizar as respostas, como o Jbuilder, que permite formatar as respostas em JSON de acordo com as especificações do projeto.
